@@ -1,0 +1,140 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Estilos barra de navegação */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adicionei uma cor de fundo para a navbar para melhor visibilidade */
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center; /* Centraliza os itens na navbar */
+    padding: 10px 0; /* Espaçamento interno na navbar */
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px; /* Espaçamento interno nos links da navbar */
+}
+
+.nav-list li a:hover {
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+/* Estilos seção de boas vindas */
+.welcome-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagem.jpg);
+    background-size: contain;
+    background-position: top right; /* Posiciona a imagem no canto superior esquerdo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    padding: 150px 0;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Estilos seção de projetos */
+.projects-section {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects-section h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.project-tile {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-tile:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.project-tile p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Estilos seção de contatos */
+.contact-section {
+    background-color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.contact-details img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-details:hover {
+    color: #2ecc71;
+}
+
+
+
+
